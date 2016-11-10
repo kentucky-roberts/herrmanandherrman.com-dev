@@ -1,0 +1,20 @@
+// Radial Gradient - Evenly Spaced Color Stops
+.grad-green-rad {
+    height: 650px;
+    width: 100%;
+    background: #007053; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#007053, #052624); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#007053, #052624); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#007053, #052624); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#007053, #052624); /* Standard syntax (must be last) */
+}
+
+.grad-green-linear {
+    height: 650px;
+    width: 100%;
+    background: #007053; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #052624, #007053); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #052624, #007053); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #052624, #007053); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #052624, #007053); /* Standard syntax (must be last) */
+}

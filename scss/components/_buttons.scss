@@ -1,0 +1,44 @@
+/* Button Styles */
+.btn-round {
+	border-radius: 10px;
+	font-size: 15.2px;
+}
+
+.btn-cta-yellow {
+	background-color: $dark-yellow;
+	color: $yellow-button-text;
+	text-transform: uppercase;
+
+	span {
+		font-size: 20px;
+		padding: 25px 30px;
+	}
+
+	i {
+		text-align: center;
+	}
+
+	&:hover {
+		
+	}
+}
+
+.btn-cta-green {
+	background-color: $dark-green;
+	color: white;
+	text-transform: uppercase;
+	padding: 15px 30px 15px;
+
+	span {
+		font-size: 20px;
+		line-height: 30px;
+		//padding: 25px 30px;
+	}
+
+	i {
+		text-align: center;
+	    padding-left: 5%;
+    	font-size: 25px;
+	}
+
+}

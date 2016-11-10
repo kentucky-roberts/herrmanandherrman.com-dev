@@ -1,0 +1,19 @@
+{
+  "name": "herrmanandherrman",
+  "version": "1.0.0",
+  "authors": [
+    "Christopher J. Roberts"
+  ],
+  "description": "A custom WP Theme by Consultwebs",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "bourbon": "~4.2.6",
+    "neat": "~1.7.2"
+  }
+}

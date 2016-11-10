@@ -1,0 +1,12 @@
+{
+    "name": "croberts/herrmanandherrman.com-dev",
+    "authors": [
+        {
+            "name": "kentucky-roberts",
+            "email": "croberts@lknpro.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^3.3"
+    }
+}
