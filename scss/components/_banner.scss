@@ -1,0 +1,30 @@
+/* Banner Styles */
+.accidents-banner-container {
+	.banner {
+		background-image: url("http://localhost:8888/herrmanandherrman.com-dev/images/mobile-banners/HH-banner-mobile-car-accidents.jpg");
+		background-color: #000;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		margin: 0;
+		padding: 15px 0 25px;
+		color: white;
+
+		.title {
+			color: white;
+			font-size: 32px;
+			line-height: 45px;
+			font-weight: 700;
+		}
+
+		.text {
+			a {
+				color: $brand-yellow;
+			}
+		}
+
+		.btn-banner {
+			font-weight: 700;
+		}
+	}
+}

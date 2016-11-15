@@ -1,0 +1,25 @@
+
+/* Breadcrumb Styles */
+.breadcrumb-container {
+	background-color: $brand-well-bg;
+	width: 100%;
+
+	.breadcrumb {
+		font-size: 14px;
+		line-height: 22px;
+	    padding: 5px 0;  //custom
+	    margin: 0;  //custom
+	    list-style: none;
+	    background-color: $brand-well-bg;
+	    border-radius: 0;
+
+
+		a {
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

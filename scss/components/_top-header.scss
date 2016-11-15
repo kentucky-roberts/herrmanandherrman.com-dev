@@ -1,0 +1,25 @@
+/* Top Header Styles */
+.top-header {
+	height: 100px;
+	border: none;
+
+	.primary-logo {
+		padding: 15px 0;
+	}
+
+	.header-phone {
+		font-family: $font-family-heading;
+		color: $heading-text-color;
+		font-size: $font-size-h2;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-decoration: underline;
+	}
+
+	.header-request {
+		font-family: $font-family-body;
+		font-size: 16px;
+		line-height: 12px;
+		padding-right: 25px;
+	}
+}

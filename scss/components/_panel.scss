@@ -1,0 +1,16 @@
+/* Panel Styles */
+.panel {
+
+	.panel-title {
+		text-decoration: none;
+	}
+
+	.panel-heading {
+		padding: 0;
+
+		a.btn-toggle {
+			background-color: $brand-primary;
+			color: white;
+		}
+	}
+}

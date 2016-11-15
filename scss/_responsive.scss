@@ -1,0 +1,486 @@
+// Responsive Styles
+
+/* Phone */
+@media (min-width: $screen-phone) {
+
+  body {
+    
+  }
+  
+  .navbar-nav {
+    width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      border-top: none;
+      font-family: $font-family-heading;
+    > li {
+        float: none;
+        display: inline-block;
+        /*background-color: $navbar-default-link-active-bg;
+        color: $navbar-default-link-active-color;*/
+      }
+     > li > a {
+        padding-top:    10px;
+        padding-bottom: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 37px;
+
+      &:before {
+            content: none;
+            font-size: 0;
+            height: 0;
+            line-height: 0;
+            display: none;
+            margin: 0; //16px
+            padding: 0;
+            //border: 1px solid green; // debugging color only
+            z-index: 6000;
+          }
+      }
+  }
+
+
+
+  .slogan {
+    background-color: white;
+  }
+}
+
+/* Tablet */
+@media (min-width: $screen-tablet) {
+  h1.title, h2.title {
+    text-align: center;
+  }
+
+
+/* Banner Styles */
+.accidents-banner-container {
+  .banner {
+    background-image: url("http://localhost:8888/herrmanandherrman.com-dev/images/desktop-banners/HH-banner-car-accidents.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0 25px;
+    color: white;
+
+    .title {
+      color: white;
+      font-size: 32px;
+      line-height: 45px;
+      font-weight: 700;
+    }
+
+    .text {
+      a {
+        color: $brand-yellow;
+      }
+    }
+
+    .btn-banner {
+      font-weight: 700;
+    }
+
+
+
+
+
+  }
+}
+
+  
+  .slogan {
+    background-color: $brand-well-bg;
+
+    .slogan-container {
+      border: none; //from psd
+      margin: 0;
+      padding: 50px 0;
+      text-align: left;
+    }
+  }
+}
+
+/* Desktop */
+@media (min-width: $screen-desktop) {
+  h1.title, h2.title {
+    text-align: left;
+  }
+
+  body {
+    
+  }
+
+
+.navbar-default .navbar-nav {
+  margin: 0 auto;
+
+}
+
+/* Banner Styles */
+
+  .banner {
+    background-image: url("http://localhost:8888/herrmanandherrman.com-dev/images/desktop-banners/HH-banner-car-accidents.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0 25px;
+    color: white;
+
+    .title {
+      color: white;
+      font-size: 32px;
+      line-height: 45px;
+      font-weight: 700;
+    }
+
+    .text {
+      a {
+        color: $brand-yellow;
+      }
+    }
+
+    .btn-banner {
+      font-weight: 700;
+    }
+  }
+
+
+.cc-personal-injury-container {
+  padding-top: 25px;
+
+  h1 {
+    font-family: $font-family-body-condenced;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: left;
+    color: $brand-primary;
+    margin: 0 auto 5px;
+    text-transform: none;
+  }
+
+  h2 {
+    font-family: $font-family-heading;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+    margin: 0 auto 30px;
+
+  }
+
+  ul {
+    li {
+      font-family: $font-family-heading;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 35px;
+    }
+  }
+
+  p {
+    text-align: left;
+  }
+}
+
+
+ 
+ /* .slogan-container {
+    background-color: $brand-well-bg;
+     width: 100%;
+    padding: 1em;
+    -webkit-display: -webkit-box;
+    -webkit-display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    .mobile-slogan {              
+      .slogan-message {
+        margin: 0 auto;
+        //display: inline-block;
+      }
+      .slogan-title {
+        margin: 0 auto;
+       // display: inline-block;
+      }
+      .slogan-link {
+        margin: 0 auto;
+        display: inline-block;
+      }
+      .slogan-button {
+        margin: 0 auto;
+        //display: inline-block;
+      }
+    }                
+  }
+
+*/
+.slogan-container {
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+
+  .slogan {
+    width: 100%;
+    margin: 30px 0;
+    //padding: 30px 15px;
+    text-align: left;
+    border: none;
+    font-size: 24px;
+    background-color: $brand-well-bg;
+
+    a.slogan-title {
+      font-family: $font-family-heading;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 24px;
+      //line-height: 25px;
+      //letter-spacing: 2.0px;
+      //margin: 0 auto 10px;
+      color: $link-hover-color; // reversed default link color/hover 
+      text-decoration: none;
+
+      &:hover {
+          color: $link-color;
+          text-decoration: none;
+        }
+
+    }
+
+    .slogan-message {
+      font-family: $font-family-heading;
+      font-size: 24px;
+      font-weight: 400;
+      color: #1e2a32;
+      //line-height: 25px;
+      //margin: 0 auto 25px;
+      //letter-spacing: 1.0px;
+    }
+
+    .slogan-link {
+      font-family: $font-family-body-condenced;
+      font-size: 24px;
+      //line-height: 25px;
+      font-weight: 300i;
+      font-style: italic;
+      color: $link-color;
+      text-align: left;
+      //margin: 0 auto 10px;
+      text-decoration: $link-hover-decoration;
+
+      &:hover {
+        font-color: $link-hover-color;
+        text-decoration: $link-hover-decoration;
+      }
+    }
+
+    a.slogan-button {
+      //margin: 10px 20px 30px 0;
+      //margin: 0;
+      /*padding-right: 25px;
+      padding-left: 25px;
+      */
+      padding: 5px 15px 5px 15px;
+
+      span {
+        font-family: $font-family-heading;
+        font-size: 19px;
+        //line-height: 60px;
+        font-weight: 400;
+        text-transform: uppercase;
+        word-spacing: 4px;
+        text-decoration: none;
+      }
+
+      i {
+        font-size: 30px;
+      }
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+  } //.slogan
+
+}
+
+.pre-footer-nav {
+  margin: 0 auto;
+  font-size: 14px;
+  border-top: 1px solid $gray-light;
+  border-bottom: 1px solid $gray-light;
+  height: 60px;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .social-icon-list {
+    text-align: right;
+      li {
+        text-align: right;
+      }
+  }
+  
+}
+
+
+  header {
+    min-height: 100%;
+
+    .header-content {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      padding: 0 50px;
+
+      .header-content-inner {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+
+        h1 {
+          font-size: 50px;
+        }
+        
+        p {
+          font-size: 18px;
+          max-width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+    }
+  }
+
+
+
+
+}
+
+/* Large Desktops */
+@media (min-width: $screen-lg-desktop) {
+
+  h1.title, h2.title {
+    text-align: left;
+  }
+
+/* Banner Styles */
+.accidents-banner-container {
+  .banner {
+    background-image: url("http://localhost:8888/herrmanandherrman.com-dev/images/desktop-banners/HH-banner-car-accidents.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0 25px;
+    color: white;
+
+    .title {
+      color: white;
+      font-size: 32px;
+      line-height: 45px;
+      font-weight: 700;
+    }
+
+    .text {
+      a {
+        color: $brand-yellow;
+      }
+    }
+
+    .btn-banner {
+      font-weight: 700;
+    }
+  }
+}
+
+  
+  .navbar-nav {
+    width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      border-top: none;
+      font-family: $font-family-heading;
+    > li {
+        float: none;
+        display: inline-block;
+        //background-color: $navbar-default-link-active-bg;
+        //color: $navbar-default-link-active-color;
+      }
+     > li > a {
+        padding-top:    10px;
+        padding-bottom: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 37px;
+
+      &:before {
+          content: none;
+        }
+      }
+    }
+
+
+}
+
+/* Print */
+@media print {
+  .container {
+    width: auto;
+  }
+}
+
+
+
+/* Navigation */
+@media (max-width: $grid-float-breakpoint-max) {
+  // Overrides from bootstrap navbar scss
+  // Dropdowns get custom display when collapsed
+
+  .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    > li > a,
+    .dropdown-header {
+      padding: 5px 15px 5px 25px;
+    }
+    > li > a {
+      line-height: $line-height-computed;
+      &:hover,
+      &:focus {
+        background-image: none;
+      }
+    }
+  }
+}
+// Uncollapse the nav
+@media (min-width: $grid-float-breakpoint) {
+  float: none;
+  margin: 0 auto;
+
+  > li {
+    float: none;
+    > a {
+      padding-top:    $navbar-padding-vertical;
+      padding-bottom: $navbar-padding-vertical;
+    }
+  }
+}
+
+

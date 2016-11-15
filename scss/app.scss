@@ -21,11 +21,15 @@ $font-family-heading:	    'Oswald', sans-serif !default;
 $font-family-base:        	 $font-family-body !default;
 
 */
-@import url('https://fonts.googleapis.com/css?family=Muli:400,400i|Oswald:400,700');
+//@import url('https://fonts.googleapis.com/css?family=Muli:400,400i|Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto+Condensed:300,300i,400|Roboto:400,700');
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "ionicons/ionicons";
 @import "components";
+@import "responsive";
+@import "pages";
+
 
 html,
 body {
@@ -47,6 +51,7 @@ h1, h2, h4, h5 {
 
 h1 {
 	font-size: $font-size-h1;
+	font-family: $font-family-body-condenced;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -55,6 +60,10 @@ h2 {
 	font-size: $font-size-h2;
 	text-transform: uppercase;
 	font-weight: 700;
+
+	a {
+		text-decoration: none;
+	}
 }
 
 h3 {
@@ -98,9 +107,19 @@ ul.list-using-solid-squares {
 
 /* Header Styles */
 .top-header {
-	height: 120px;
-	padding-top: 20px;
+	/*height: 120px;
+	padding-top: 20px;*/
 	border: none;
+
+
+	.primary-logo {
+		margin: 0 auto;		
+	}
+
+
+	.top-header-buttons {
+		padding-top: 25px;
+	}
 
 	.header-phone {
 		font-family: $font-family-heading;
@@ -122,26 +141,6 @@ ul.list-using-solid-squares {
 /* Top Nav Styles */
 .top-nav {
 
-}
-
-/* Breadcrumb Styles */
-.breadcrumb {
-	font-size: 14px;
-	line-height: 22px;
-    padding: 5px 0;  //custom
-    margin: 0;  //custom
-    list-style: none;
-    background-color: #f3f3f3; //custom
-    border-radius: 0;
-
-
-	a {
-		text-decoration: none;
-
-		&:hover {
-			text-decoration: none;
-		}
-	}
 }
 
 
@@ -204,94 +203,5 @@ ul.list-using-solid-squares {
 
 }
 
-
-
-
-
-
-
-/* Panel Styles */
-.panel {
-
-	.panel-title {
-		text-decoration: none;
-	}
-
-	.panel-heading {
-		a.btn-toggle {
-			background-color: $brand-primary;
-			color: white;
-		}
-	}
-}
-
-
-
-
-
-/* Sidebar Styles */
-.sidebar {
-
-  .sidebar-item {
-    //margin: 0 15px 0;
-
-    p {
-		font-size: 18px;
-		//line-height: 28;
-	}
-
-	h3 {
-		color: white;
-		text-align: center;
-		text-size: 26px;
-      //	line-height: 31px;
-	}
-
-    .cta-01-container {
-      background-color: $brand-primary;
-      color: white;
-      width: 100%;
-      padding: 15px;
-    }
-  }
-}
-
-
-
-
-
-/* Panel Styles */
-.panel-heading {
-	padding: 0;
-}
-
-
-
-
-
-
-
-
- /* Footer and Pre-Footer Styles */
-.pre-footer-nav {
-	font-size: 14px;
-	border: 1px solid gray;
-	height: 60px;
-	width: 100%;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-footer {
-	//position: absolute;
-  	//bottom: 0;
-	width:100%;
-	//height: 60px;
-	margin: 0;
-	padding: 15px 0;
-	font-size: 12px;
-	line-height: 25px;
-	color: #56544f;
-}
 
 

@@ -22,7 +22,7 @@ $font-family-heading:	    'Oswald', sans-serif !default;
 $font-family-base:        	 $font-family-body !default;
 
 */
-@import url("https://fonts.googleapis.com/css?family=Muli:400,400i|Oswald:400,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto+Condensed:300,300i,400|Roboto:400,700");
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -1092,7 +1092,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 1.667;
   color: #56544f;
@@ -3050,23 +3050,23 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-color: #fff; }
 
 .btn-warning {
-  color: #fff;
+  color: #070f17;
   background-color: #edc505;
   border-color: #d4b004; }
   .btn-warning:focus, .btn-warning.focus {
-    color: #fff;
+    color: #070f17;
     background-color: #bb9b04;
     border-color: #574802; }
   .btn-warning:hover {
-    color: #fff;
+    color: #070f17;
     background-color: #bb9b04;
     border-color: #987e03; }
   .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
-    color: #fff;
+    color: #070f17;
     background-color: #bb9b04;
     border-color: #987e03; }
     .btn-warning:active:hover, .btn-warning:active:focus, .btn-warning:active.focus, .btn-warning.active:hover, .btn-warning.active:focus, .btn-warning.active.focus, .open > .btn-warning.dropdown-toggle:hover, .open > .btn-warning.dropdown-toggle:focus, .open > .btn-warning.dropdown-toggle.focus {
-      color: #fff;
+      color: #070f17;
       background-color: #987e03;
       border-color: #574802; }
   .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
@@ -3076,7 +3076,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     border-color: #d4b004; }
   .btn-warning .badge {
     color: #edc505;
-    background-color: #fff; }
+    background-color: #070f17; }
 
 .btn-danger {
   color: #fff;
@@ -3977,15 +3977,15 @@ tbody.collapse.in {
     .navbar-right ~ .navbar-right {
       margin-right: 0; } }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7; }
+  background-color: #fff;
+  border-color: #eeeeee; }
   .navbar-default .navbar-brand {
     color: #777; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
       color: #5e5e5e;
       background-color: transparent; }
   .navbar-default .navbar-text {
-    color: #777; }
+    color: #3e484e; }
   .navbar-default .navbar-nav > li > a {
     color: #777; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -3993,7 +3993,7 @@ tbody.collapse.in {
       background-color: transparent; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
-    background-color: #e7e7e7; }
+    background-color: #fff; }
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
     background-color: transparent; }
@@ -4005,9 +4005,9 @@ tbody.collapse.in {
       background-color: #888; }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #e7e7e7; }
+    border-color: #eeeeee; }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #e7e7e7;
+    background-color: #eeeeee;
     color: #555; }
   @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -4017,7 +4017,7 @@ tbody.collapse.in {
         background-color: transparent; }
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555;
-      background-color: #e7e7e7; }
+      background-color: #eeeeee; }
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
       background-color: transparent; } }
@@ -5206,7 +5206,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5312,7 +5312,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8792,34 +8792,6 @@ button.close {
 .ion-xbox:before {
   content: ""; }
 
-/* Button Styles */
-.btn-round {
-  border-radius: 10px;
-  font-size: 15.2px; }
-
-.btn-cta-yellow {
-  background-color: #edc505;
-  color: #070f17;
-  text-transform: uppercase; }
-  .btn-cta-yellow span {
-    font-size: 20px;
-    padding: 25px 30px; }
-  .btn-cta-yellow i {
-    text-align: center; }
-
-.btn-cta-green {
-  background-color: #007053;
-  color: white;
-  text-transform: uppercase;
-  padding: 15px 30px 15px; }
-  .btn-cta-green span {
-    font-size: 20px;
-    line-height: 30px; }
-  .btn-cta-green i {
-    text-align: center;
-    padding-left: 5%;
-    font-size: 25px; }
-
 .grad-green-rad {
   height: 650px;
   width: 100%;
@@ -8847,6 +8819,278 @@ button.close {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(-90deg, #052624, #007053);
   /* Standard syntax (must be last) */ }
+
+/* Button Styles */
+.btn-round {
+  border-radius: 10px;
+  font-size: 15.2px; }
+
+.btn-play-container {
+  width: 100%;
+  display: block;
+  width: 91px;
+  height: 91px; }
+  .btn-play-container .btn-play-frosted {
+    margin: 25px auto;
+    text-align: center; }
+
+.btn-cta-yellow {
+  background-color: #edc505;
+  color: #070f17;
+  text-transform: uppercase; }
+  .btn-cta-yellow span {
+    font-size: 20px;
+    padding: 25px 30px; }
+  .btn-cta-yellow i {
+    text-align: center; }
+
+.btn-cta-green {
+  background-color: #007053;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 30px 15px; }
+  .btn-cta-green span {
+    font-size: 20px;
+    line-height: 30px; }
+  .btn-cta-green i {
+    text-align: center;
+    padding-left: 5%;
+    font-size: 25px; }
+
+.btn.btn-success {
+  color: #070f17;
+  background-color: #edde08;
+  background-image: linear-gradient(to bottom, #edde08, #edc205);
+  border: none; }
+
+.btn.btn-success:hover {
+  color: #070f17;
+  background-color: #edc205;
+  background-image: linear-gradient(to bottom, #edc205, #edc205);
+  border: none; }
+
+/* Top Header Styles */
+.top-header {
+  height: 100px;
+  border: none; }
+  .top-header .primary-logo {
+    padding: 15px 0; }
+  .top-header .header-phone {
+    font-family: "Oswald", sans-serif;
+    color: #1e2a31;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline; }
+  .top-header .header-request {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 12px;
+    padding-right: 25px; }
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0;
+  border: 1px solid transparent; }
+  .navbar li {
+    color: #3e484e;
+    text-align: center;
+    margin: 15px auto; }
+    .navbar li a {
+      color: #777;
+      text-decoration: none;
+      font-family: "Oswald", sans-serif;
+      text-transform: normal;
+      font-weight: 300; }
+      .navbar li a:hover {
+        color: #333;
+        font-family: "Oswald", sans-serif;
+        text-transform: normal;
+        font-weight: 700; }
+      .navbar li a:active {
+        font-family: "Oswald", sans-serif;
+        color: #555;
+        text-transform: uppercase;
+        font-weight: 700; }
+      .navbar li a:disabled {
+        color: #ccc; }
+
+nav > .navbar-nav > .mobile-nav-links-container:before {
+  content: none !important; }
+
+.mobile-nav-links-container .navbar-nav {
+  margin: 0 auto;
+  border-top: 2px solid lightgray; }
+  .mobile-nav-links-container .navbar-nav > li {
+    background-color: #eeeeee;
+    color: #555; }
+  .mobile-nav-links-container .navbar-nav > a {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 37px;
+    width: 100%; }
+    .mobile-nav-links-container .navbar-nav > a:before {
+      content: none !important;
+      display: none; }
+  @media (max-width: 767px) {
+    .mobile-nav-links-container .navbar-nav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      box-shadow: none; }
+      .mobile-nav-links-container .navbar-nav .open .dropdown-menu > li > a,
+      .mobile-nav-links-container .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 5px 15px 5px 25px; }
+      .mobile-nav-links-container .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 30px; }
+        .mobile-nav-links-container .navbar-nav .open .dropdown-menu > li > a:hover, .mobile-nav-links-container .navbar-nav .open .dropdown-menu > li > a:focus {
+          background-image: none; } }
+  @media (min-width: 768px) {
+    .mobile-nav-links-container .navbar-nav {
+      float: none;
+      margin: 0 auto; }
+      .mobile-nav-links-container .navbar-nav > li {
+        float: none; }
+        .mobile-nav-links-container .navbar-nav > li > a {
+          padding-top: 10px;
+          padding-bottom: 10px; } }
+.mobile-nav-links-container .nav > li {
+  display: inline-block;
+  margin: 0 15px 0; }
+.mobile-nav-links-container .list-inline > li {
+  /*padding-left: 25px;
+  padding-right: 25px;*/
+  padding: 0 25px;
+  margin: 0;
+  background-color: #f2f2f2; }
+  .mobile-nav-links-container .list-inline > li a {
+    text-decoration: none;
+    text-align: center; }
+
+.navbar li {
+  color: #3e484e;
+  text-align: center;
+  margin: 0 auto; }
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #eeeeee;
+  text-decoration: none;
+  font-size: 17px; }
+  .navbar-default .navbar-brand {
+    color: #777; }
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+      color: #5e5e5e;
+      background-color: transparent;
+      text-transform: uppercase;
+      font-weight: 700; }
+  .navbar-default .navbar-text {
+    color: #3e484e; }
+  .navbar-default .navbar-nav {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-top: none;
+    font-family: "Oswald", sans-serif; }
+    .navbar-default .navbar-nav > li {
+      float: none;
+      display: inline-block; }
+    .navbar-default .navbar-nav > li > a {
+      padding-top: 10px;
+      padding-bottom: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      line-height: 37px; }
+      .navbar-default .navbar-nav > li > a:before {
+        content: ' | ';
+        font-size: 16px;
+        height: 18px;
+        line-height: 18px;
+        display: block;
+        margin: -8px auto;
+        padding: 0;
+        z-index: 6000; }
+  .navbar-default .navbar-nav > li > a {
+    color: #777;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif; }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      color: #333;
+      background-color: transparent;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-decoration: none; }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none; }
+  .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+    font-weight: 400;
+    text-decoration: none; }
+  .navbar-default .navbar-toggle {
+    border-color: #ddd;
+    text-decoration: none; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background-color: #ddd;
+      text-decoration: none; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #888; }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: #eeeeee; }
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #fff;
+    color: #555;
+    text-transform: uppercase;
+    text-decoration: none; }
+  @media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #777; }
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+        text-transform: uppercase;
+        text-decoration: none; }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #555;
+      background-color: #eeeeee;
+      text-transform: uppercase;
+      text-decoration: none; }
+    .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+      color: #ccc;
+      background-color: transparent;
+      text-transform: uppercase;
+      text-decoration: none; } }
+  .navbar-default .navbar-link {
+    color: #777;
+    text-decoration: none; }
+    .navbar-default .navbar-link:hover {
+      color: #333;
+      text-decoration: none; }
+  .navbar-default .btn-link {
+    color: #777;
+    text-decoration: none; }
+    .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
+      color: #333;
+      text-decoration: none; }
+    .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
+      color: #ccc;
+      text-decoration: none; }
+
+.mobile-nav-link {
+  color: #333;
+  background-color: transparent; }
 
 /*section {
   padding: 100px 0;
@@ -8893,7 +9137,350 @@ header {
   height: auto;
   z-index: -100; }
 
+/* Banner Styles */
+.accidents-banner-container .banner {
+  background-image: url("http://localhost:8888/herrmanandherrman.com-dev/images/mobile-banners/HH-banner-mobile-car-accidents.jpg");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  padding: 15px 0 25px;
+  color: white; }
+  .accidents-banner-container .banner .title {
+    color: white;
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 700; }
+  .accidents-banner-container .banner .text a {
+    color: #edc505; }
+  .accidents-banner-container .banner .btn-banner {
+    font-weight: 700; }
+
+/* Breadcrumb Styles */
+.breadcrumb-container {
+  background-color: #f2f2f2;
+  width: 100%; }
+  .breadcrumb-container .breadcrumb {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 5px 0;
+    margin: 0;
+    list-style: none;
+    background-color: #f2f2f2;
+    border-radius: 0; }
+    .breadcrumb-container .breadcrumb a {
+      text-decoration: none; }
+      .breadcrumb-container .breadcrumb a:hover {
+        text-decoration: none; }
+
+/* Panel Styles */
+.panel .panel-title {
+  text-decoration: none; }
+.panel .panel-heading {
+  padding: 0; }
+  .panel .panel-heading a.btn-toggle {
+    background-color: #007053;
+    color: white; }
+
+.slogan-container {
+  padding: 10px; }
+  .slogan-container .slogan {
+    width: 100%;
+    margin: 30px auto;
+    padding: 30px 15px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    background-color: #fff; }
+    .slogan-container .slogan a.slogan-title {
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 55px;
+      letter-spacing: 2.0px;
+      margin: 0 auto 10px;
+      color: #00241a;
+      text-decoration: none; }
+      .slogan-container .slogan a.slogan-title:hover {
+        color: #007053;
+        text-decoration: none; }
+    .slogan-container .slogan .slogan-message {
+      font-family: "Oswald", sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+      color: #1e2a32;
+      line-height: 38px;
+      margin: 0 auto 25px;
+      letter-spacing: 1.0px; }
+    .slogan-container .slogan .slogan-link {
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 23px;
+      line-height: 25px;
+      font-weight: 300i;
+      font-style: italic;
+      color: #007053;
+      text-align: center;
+      margin: 0 auto 10px;
+      text-decoration: underline; }
+      .slogan-container .slogan .slogan-link:hover {
+        font-color: #00241a;
+        text-decoration: underline; }
+    .slogan-container .slogan a.slogan-button {
+      margin: 10px 20px 30px 0;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding: 15px 25px 10px 25px;
+      text-decoration: none; }
+      .slogan-container .slogan a.slogan-button span {
+        font-family: "Oswald", sans-serif;
+        font-size: 19px;
+        line-height: 60px;
+        font-weight: 400;
+        text-transform: uppercase;
+        word-spacing: 4px; }
+      .slogan-container .slogan a.slogan-button i {
+        font-size: 30px; }
+
+/* Pre Footer Nav Styles */
+.pre-footer-nav {
+  margin: 0 auto;
+  font-size: 14px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  height: 60px;
+  width: 100%;
+  background-repeat: none;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+  .pre-footer-nav .social-icon-list {
+    text-align: center; }
+
+/* Footer and Pre-Footer Styles */
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 15px 0;
+  font-size: 12px;
+  line-height: 25px;
+  color: #56544f; }
+
+/* Phone */
+@media (min-width: 480px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-top: none;
+    font-family: "Oswald", sans-serif; }
+    .navbar-nav > li {
+      float: none;
+      display: inline-block;
+      /*background-color: $navbar-default-link-active-bg;
+      color: $navbar-default-link-active-color;*/ }
+    .navbar-nav > li > a {
+      padding-top: 10px;
+      padding-bottom: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      line-height: 37px; }
+      .navbar-nav > li > a:before {
+        content: none;
+        font-size: 0;
+        height: 0;
+        line-height: 0;
+        display: none;
+        margin: 0;
+        padding: 0;
+        z-index: 6000; }
+
+  .slogan {
+    background-color: white; } }
+/* Tablet */
 @media (min-width: 768px) {
+  h1.title, h2.title {
+    text-align: center; }
+
+  /* Banner Styles */
+  .accidents-banner-container .banner {
+    background-image: url("http://localhost:8888/herrmanandherrman.com-dev/images/desktop-banners/HH-banner-car-accidents.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0 25px;
+    color: white; }
+    .accidents-banner-container .banner .title {
+      color: white;
+      font-size: 32px;
+      line-height: 45px;
+      font-weight: 700; }
+    .accidents-banner-container .banner .text a {
+      color: #edc505; }
+    .accidents-banner-container .banner .btn-banner {
+      font-weight: 700; }
+
+  .slogan {
+    background-color: #f2f2f2; }
+    .slogan .slogan-container {
+      border: none;
+      margin: 0;
+      padding: 50px 0;
+      text-align: left; } }
+/* Desktop */
+@media (min-width: 992px) {
+  h1.title, h2.title {
+    text-align: left; }
+
+  .navbar-default .navbar-nav {
+    margin: 0 auto; }
+
+  /* Banner Styles */
+  .banner {
+    background-image: url("http://localhost:8888/herrmanandherrman.com-dev/images/desktop-banners/HH-banner-car-accidents.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0 25px;
+    color: white; }
+    .banner .title {
+      color: white;
+      font-size: 32px;
+      line-height: 45px;
+      font-weight: 700; }
+    .banner .text a {
+      color: #edc505; }
+    .banner .btn-banner {
+      font-weight: 700; }
+
+  .cc-personal-injury-container {
+    padding-top: 25px; }
+    .cc-personal-injury-container h1 {
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 300;
+      font-size: 23px;
+      line-height: 29px;
+      text-align: left;
+      color: #007053;
+      margin: 0 auto 5px;
+      text-transform: none; }
+    .cc-personal-injury-container h2 {
+      font-family: "Oswald", sans-serif;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 40px;
+      text-align: left;
+      margin: 0 auto 30px; }
+    .cc-personal-injury-container ul li {
+      font-family: "Oswald", sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 35px; }
+    .cc-personal-injury-container p {
+      text-align: left; }
+
+ /* .slogan-container {
+    background-color: $brand-well-bg;
+     width: 100%;
+    padding: 1em;
+    -webkit-display: -webkit-box;
+    -webkit-display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    .mobile-slogan {              
+      .slogan-message {
+        margin: 0 auto;
+        //display: inline-block;
+      }
+      .slogan-title {
+        margin: 0 auto;
+       // display: inline-block;
+      }
+      .slogan-link {
+        margin: 0 auto;
+        display: inline-block;
+      }
+      .slogan-button {
+        margin: 0 auto;
+        //display: inline-block;
+      }
+    }                
+  }
+
+*/
+  .slogan-container {
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center; }
+    .slogan-container .slogan {
+      width: 100%;
+      margin: 30px 0;
+      text-align: left;
+      border: none;
+      font-size: 24px;
+      background-color: #f2f2f2; }
+      .slogan-container .slogan a.slogan-title {
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 24px;
+        color: #00241a;
+        text-decoration: none; }
+        .slogan-container .slogan a.slogan-title:hover {
+          color: #007053;
+          text-decoration: none; }
+      .slogan-container .slogan .slogan-message {
+        font-family: "Oswald", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        color: #1e2a32; }
+      .slogan-container .slogan .slogan-link {
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 24px;
+        font-weight: 300i;
+        font-style: italic;
+        color: #007053;
+        text-align: left;
+        text-decoration: underline; }
+        .slogan-container .slogan .slogan-link:hover {
+          font-color: #00241a;
+          text-decoration: underline; }
+      .slogan-container .slogan a.slogan-button {
+        /*padding-right: 25px;
+        padding-left: 25px;
+        */
+        padding: 5px 15px 5px 15px; }
+        .slogan-container .slogan a.slogan-button span {
+          font-family: "Oswald", sans-serif;
+          font-size: 19px;
+          font-weight: 400;
+          text-transform: uppercase;
+          word-spacing: 4px;
+          text-decoration: none; }
+        .slogan-container .slogan a.slogan-button i {
+          font-size: 30px; }
+        .slogan-container .slogan a.slogan-button:hover {
+          text-decoration: none; }
+
+  .pre-footer-nav {
+    margin: 0 auto;
+    font-size: 14px;
+    border-top: 1px solid #777777;
+    border-bottom: 1px solid #777777;
+    height: 60px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .pre-footer-nav .social-icon-list {
+      text-align: right; }
+      .pre-footer-nav .social-icon-list li {
+        text-align: right; }
+
   header {
     min-height: 100%; }
     header .header-content {
@@ -8914,13 +9501,110 @@ header {
           max-width: 80%;
           margin-left: auto;
           margin-right: auto; } }
+/* Large Desktops */
+@media (min-width: 1200px) {
+  h1.title, h2.title {
+    text-align: left; }
+
+  /* Banner Styles */
+  .accidents-banner-container .banner {
+    background-image: url("http://localhost:8888/herrmanandherrman.com-dev/images/desktop-banners/HH-banner-car-accidents.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0 25px;
+    color: white; }
+    .accidents-banner-container .banner .title {
+      color: white;
+      font-size: 32px;
+      line-height: 45px;
+      font-weight: 700; }
+    .accidents-banner-container .banner .text a {
+      color: #edc505; }
+    .accidents-banner-container .banner .btn-banner {
+      font-weight: 700; }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-top: none;
+    font-family: "Oswald", sans-serif; }
+    .navbar-nav > li {
+      float: none;
+      display: inline-block; }
+    .navbar-nav > li > a {
+      padding-top: 10px;
+      padding-bottom: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      line-height: 37px; }
+      .navbar-nav > li > a:before {
+        content: none; } }
+/* Print */
+@media print {
+  .container {
+    width: auto; } }
+/* Navigation */
+@media (max-width: 767px) {
+  .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none; }
+    .open .dropdown-menu > li > a,
+    .open .dropdown-menu .dropdown-header {
+      padding: 5px 15px 5px 25px; }
+    .open .dropdown-menu > li > a {
+      line-height: 30px; }
+      .open .dropdown-menu > li > a:hover, .open .dropdown-menu > li > a:focus {
+        background-image: none; } }
+@media (min-width: 768px) {
+  float: none;
+  margin: 0 auto;
+  > li {
+    float: none; }
+    > li > a {
+      padding-top: 10px;
+      padding-bottom: 10px; } }
+/* 404 Styles */
+/* Accidents Styles */
+.banner-accidents-01 {
+  background-color: transparent;
+  background-image: url(http://localhost:8888/herrmanandherrman.com-dev/images/desktop-banners/HH-car-accidents.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-origin: padding-box;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  background-position: center center;
+  background-size: cover; }
+
+/* About Styles */
+/* 404 Styles */
+/* 404 Styles */
+/* 404 Styles */
+/* 404 Styles */
+/* 404 Styles */
 html,
 body {
   height: 100%;
   width: 100%; }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #56544f; }
 
 /* Typography */
@@ -8930,6 +9614,7 @@ h1, h2, h4, h5 {
 
 h1 {
   font-size: 49px;
+  font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   font-weight: 700; }
 
@@ -8937,9 +9622,11 @@ h2 {
   font-size: 36px;
   text-transform: uppercase;
   font-weight: 700; }
+  h2 a {
+    text-decoration: none; }
 
 h3 {
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #1e2a31;
   font-size: 31px;
   font-weight: 400; }
@@ -8970,9 +9657,13 @@ ul.list-using-solid-squares {
 
 /* Header Styles */
 .top-header {
-  height: 120px;
-  padding-top: 20px;
+  /*height: 120px;
+  padding-top: 20px;*/
   border: none; }
+  .top-header .primary-logo {
+    margin: 0 auto; }
+  .top-header .top-header-buttons {
+    padding-top: 25px; }
   .top-header .header-phone {
     font-family: "Oswald", sans-serif;
     color: #1e2a31;
@@ -8981,30 +9672,16 @@ ul.list-using-solid-squares {
     text-transform: uppercase;
     text-decoration: underline; }
   .top-header .header-request {
-    font-family: "Muli", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 12px;
     padding-right: 25px; }
 
 /* Top Nav Styles */
-/* Breadcrumb Styles */
-.breadcrumb {
-  font-size: 14px;
-  line-height: 22px;
-  padding: 5px 0;
-  margin: 0;
-  list-style: none;
-  background-color: #f3f3f3;
-  border-radius: 0; }
-  .breadcrumb a {
-    text-decoration: none; }
-    .breadcrumb a:hover {
-      text-decoration: none; }
-
 .promo-container {
   margin: 50px 0; }
   .promo-container p {
-    font-family: "Muli", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #b4b9ab;
     font-size: 21px;
@@ -9035,52 +9712,11 @@ ul.list-using-solid-squares {
     .row-of-stats .strong-number:after {
       content: ' '; }
   .row-of-stats .text-light-green {
-    font-family: "Muli", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #b4b9ab;
     font-size: 21px;
     line-height: 38px;
     text-transform: uppercase; }
-
-/* Panel Styles */
-.panel .panel-title {
-  text-decoration: none; }
-.panel .panel-heading a.btn-toggle {
-  background-color: #007053;
-  color: white; }
-
-/* Sidebar Styles */
-.sidebar .sidebar-item p {
-  font-size: 18px; }
-.sidebar .sidebar-item h3 {
-  color: white;
-  text-align: center;
-  text-size: 26px; }
-.sidebar .sidebar-item .cta-01-container {
-  background-color: #007053;
-  color: white;
-  width: 100%;
-  padding: 15px; }
-
-/* Panel Styles */
-.panel-heading {
-  padding: 0; }
-
-/* Footer and Pre-Footer Styles */
-.pre-footer-nav {
-  font-size: 14px;
-  border: 1px solid gray;
-  height: 60px;
-  width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px; }
-
-footer {
-  width: 100%;
-  margin: 0;
-  padding: 15px 0;
-  font-size: 12px;
-  line-height: 25px;
-  color: #56544f; }
 
 /*# sourceMappingURL=styles.css.map */

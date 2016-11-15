@@ -1,0 +1,26 @@
+/* Sidebar Styles */
+.sidebar {
+
+  .sidebar-item {
+    //margin: 0 15px 0;
+
+    p {
+		font-size: 18px;
+		//line-height: 28;
+	}
+
+	h3 {
+		color: white;
+		text-align: center;
+		text-size: 26px;
+      //	line-height: 31px;
+	}
+
+    .cta-01-container {
+      background-color: $brand-primary;
+      color: white;
+      width: 100%;
+      padding: 15px;
+    }
+  }
+}

@@ -9,6 +9,7 @@
 **/scss/vendor
 assets/composer/*
 dist/
+vendor/*
 
 # large/disallowed file types
 # a CDN should be used for these

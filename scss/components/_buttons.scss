@@ -4,6 +4,22 @@
 	font-size: 15.2px;
 }
 
+
+
+.btn-play-container {
+	width: 100%;
+	display: block;
+	width: 91px;
+	height: 91px;
+
+	.btn-play-frosted {
+		margin: 25px auto;
+		text-align: center;
+
+	}
+}
+
+
 .btn-cta-yellow {
 	background-color: $dark-yellow;
 	color: $yellow-button-text;
@@ -42,3 +58,21 @@
 	}
 
 }
+
+.btn.btn-success {
+    color: #070f17;
+    background-color: #edde08;
+    background-image: linear-gradient(to bottom, #edde08, #edc205);
+    border: none;
+}
+.btn.btn-success:hover {
+    color: #070f17;
+    background-color: #edc205;
+    background-image: linear-gradient(to bottom, #edc205, #edc205);
+    border: none;
+}
+
+
+
+
+

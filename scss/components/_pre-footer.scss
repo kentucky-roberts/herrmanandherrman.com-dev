@@ -1,0 +1,17 @@
+/* Pre Footer Nav Styles */
+.pre-footer-nav {
+	margin: 0 auto;
+	font-size: 14px;
+	border-top: 1px solid $gray-lighter;
+	border-bottom: 1px solid $gray-lighter;
+	height: 60px;
+	width: 100%;
+	background-repeat: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	.social-icon-list {
+		text-align: center;
+	}
+	
+}
